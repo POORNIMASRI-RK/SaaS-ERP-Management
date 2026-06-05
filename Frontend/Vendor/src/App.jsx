@@ -8,6 +8,9 @@ import Dashboard from "./pages/Dashboard";
 import StockInManagement from "./pages/StockInManagement";
 import StockOutManagement from "./pages/StockOutManagement";
 import PurchaseOrderManagement from "./pages/PurchaseOrderManagement";
+import WarehouseManagement from "./pages/WarehouseManagement";
+import Machine from "./pages/Machinemanagement";
+import Maintenance from "./pages/Maintenance";
 
 function App() {
   return (
@@ -23,8 +26,10 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/stockin" element={<StockInManagement />} />
           <Route path="/stockout" element={<StockOutManagement />} />
-          <Route path="/purchaseorders" element={<PurchaseOrderManagement />}
-/>
+          <Route path="/purchaseorders" element={<PurchaseOrderManagement />} />
+          <Route path="/warehouses" element={<WarehouseManagement />} />
+          <Route path="/machines" element={<Machine />} />
+          <Route path="/maintenance" element={<Maintenance />} />
         </Routes>
       </div>
     </div>
