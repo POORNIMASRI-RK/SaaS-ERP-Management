@@ -2,42 +2,46 @@
 
 ⭐ Key Features
 
-📦 Inventory Management – Add, update, delete, and track inventory items with real-time stock visibility
-🏢 Multi-Warehouse Support – Manage multiple warehouses with location-based organization
-⚙️ Machine Tracking – Monitor machine lifecycle including Active and Maintenance status
-🧾 Vendor Management – Manage suppliers, contact details, and supply history
-📊 Stock Monitoring – Track capacity, low stock alerts, and inventory levels
-🔍 Advanced Search & Filters – Quickly find items, warehouses, and machines
-🧩 Modular Architecture – Scalable system design for easy feature expansion
-🌐 REST API Integration – Clean backend APIs using Express.js
-⚡ Responsive UI – Modern React-based interface for all devices
-🔐 Multi-Tenant Ready Structure – Designed to support multiple organizations in future expansion
-⚡ Responsive frontend UI (React)
+- 📦 Inventory Management – Add, update, delete, and track inventory items with real-time stock visibility
+- 🏢 Multi-Warehouse Support – Manage multiple warehouses with location-based organization
+- ⚙️ Machine Tracking – Monitor machine lifecycle including Active and Maintenance status
+- 🧾 Vendor Management – Manage suppliers, contact details, and supply history
+- 📊 Stock Monitoring – Track capacity, low stock alerts, and inventory levels
+- 🔍 Advanced Search & Filters – Quickly find items, warehouses, and machines
+- 🧩 Modular Architecture – Scalable system design for easy feature expansion
+- 🌐 REST API Integration – Clean backend APIs using Express.js
+- ⚡ Responsive UI – Modern React-based interface for all devices
+- 🔐 Multi-Tenant Ready Structure – Designed to support multiple organizations in future expansion
+- ⚡ Responsive frontend UI (React)
 
 🛠️ Tech Stack
 
-### Frontend
+Frontend
 - React.js
 - Axios
 - CSS / Tailwind (optional)
 
-### Backend
+Backend
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 
 ⚙️ Installation & Setup
+
 📥 Clone the Repository
 git clone https://github.com/your-username/saas-erp.git
 cd saas-erp
+
 🧩 Install Dependencies
 Backend Setup
 cd backend
 npm install
+
 Frontend Setup
 cd ../frontend
 npm install
+
 🔐 Set Up Environment Variables
 Backend (.env)
 
