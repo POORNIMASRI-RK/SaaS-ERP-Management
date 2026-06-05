@@ -71,43 +71,6 @@ Once both servers are running:
 Frontend: http://localhost:3000
 Backend API: http://localhost:5000
 
-📁 Project Structure
-ERP-System/
-│
-├── backend/
-│   ├── config/              # Database & environment configuration
-│   ├── models/              # Mongoose schemas (DB models)
-│   ├── routes/              # API routes (Inventory, Warehouse, etc.)
-│   ├── controllers/         # Business logic layer
-│   ├── middlewares/         # Auth, error handling, validations
-│   ├── utils/               # Helper functions (logs, helpers)
-│   ├── server.js            # Entry point of backend
-│   └── app.js               # Express app setup
-│
-├── frontend/
-│   ├── public/              # Static files
-│   ├── src/
-│   │   ├── assets/          # Images, icons, styles
-│   │   ├── components/      # Reusable UI components
-│   │   │   ├── Warehouse/
-│   │   │   ├── Inventory/
-│   │   │   ├── Machine/
-│   │   │   ├── Vendor/
-│   │   │   ├── Common/
-│   │   │
-│   │   ├── pages/           # Page-level components (Dashboard, etc.)
-│   │   ├── services/        # Axios API calls
-│   │   ├── hooks/           # Custom React hooks
-│   │   ├── context/         # State management (Context API)
-│   │   ├── utils/           # Helper functions
-│   │   ├── App.js
-│   │   └── index.js
-│
-├── .env                     # Environment variables
-├── .gitignore
-├── package.json
-└── README.md
-
 🔌 API Endpoints
 
 📦 Inventory APIs
