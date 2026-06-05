@@ -41,7 +41,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// DELETE
+// DELETE API
 router.delete("/:id", async (req, res) => {
   try {
     await Employee.findByIdAndDelete(req.params.id);
